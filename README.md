@@ -67,6 +67,13 @@ New SOCRadar alerts received via the Webhook will automatically appear in:
 
 * **Microsoft Sentinel** → **Incidents** blade.
 
+## SOCRadar → Azure Bi-Directional Incident App
+
+This application provides **bi-directional incident integration** between SOCRadar and Microsoft Azure.  
+Alarms in SOCRadar can be sent to Azure, and updates to incidents on the Azure side can be reflected back in SOCRadar.  
+
+For full setup instructions, please refer to the [official README](https://github.com/Radargoger/azure-socradar-bidirectional-incident-app/blob/main/README_SOCRadarAlarm_Action.md).
+
 ## 🛑 Troubleshooting
 
 | Problem | Possible Solution |
