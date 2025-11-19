@@ -1,6 +1,6 @@
 # SOCRadar-Azure Sentinel Bidirectional Integration
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Forcunsami%2Fazure-bidirectional-incident-app-fork-orcun%2Fmain%2Fsocradar-sentinel-integration-arm.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRadargoger%2Fazure-socradar-bidirectional-incident-app%2Frefs%2Fheads%2Fmain%2Fsocradar-sentinel-integration-arm.json)
 
 Automatically synchronize incident status between SOCRadar and Azure Sentinel. When you close a Sentinel incident, the corresponding SOCRadar alarm is automatically resolved.
 
