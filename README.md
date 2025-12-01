@@ -61,18 +61,6 @@ The Logic App's schema is robust, preventing failures if an optional SOCRadar fi
 | `alarm_risk_level` | **Severity** | `string` (with `null`) |
 | `alarm_text` | **Description** | `string` (with `null`) |
 
-## Prerequisites & Deployment Parameters
-
-You will need the following information to successfully deploy the ARM template:
-
-| Parameter Name | Description | Default Value |
-| :--- | :--- | :--- |
-| **Logic App Name** | The name for the Logic App resource. | `SOCRadar-Sentinel-Webhook-LA` |
-| **Location** | The Azure region for deployment. | `[resourceGroup().location]` |
-| **Sentinel Connection Name** | The resource name for the Azure Sentinel API connection. | `azuresentinel-webhook-1` |
-| **Sentinel Workspace Path** | **The full path to your Sentinel Workspace.** **(CRITICAL)** This is used in the `path` field of the Create Incident action. | `/Incidents/subscriptions/ID/resourceGroups/RG/workspaces/WS_NAME` **(UPDATE THIS)** |
-
-
 ## Post-Deployment Configuration (CRITICAL MANUAL STEPS)
 
 The Logic App will not function correctly until these two manual steps are completed:
