@@ -1,6 +1,6 @@
 # SOCRadar-Azure Sentinel Bidirectional Integration
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRadargoger%2Fazure-sentinel-bidirectional%2Fmain%2Fsocradar-sentinel-integration-arm.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FRadargoger%2Fazure-socradar-bidirectional-incident-app%2Frefs%2Fheads%2Fmain%2Fsocradar-sentinel-integration-arm.json)
 
 When you close an incident in Sentinel, this Logic App updates the alarm status in SOCRadar.
 
