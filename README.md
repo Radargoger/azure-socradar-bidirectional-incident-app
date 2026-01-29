@@ -33,6 +33,7 @@ Click the Deploy to Azure button above.
 | alarm_text | Description |
 
 Webhook Template (Manuel Conf)
+```bash
 {
   "is_success": true,
   "message": "New alarm received from SOCRadar",
@@ -69,7 +70,7 @@ Webhook Template (Manuel Conf)
     }
   ]
 }
-
+```
 ## Test
 
 ```bash
