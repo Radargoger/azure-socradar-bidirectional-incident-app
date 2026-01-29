@@ -32,6 +32,44 @@ Click the Deploy to Azure button above.
 | alarm_risk_level | Severity |
 | alarm_text | Description |
 
+Webhook Template (Manuel Conf)
+{
+  "is_success": true,
+  "message": "New alarm received from SOCRadar",
+  "response_code": 200,
+  "data": [
+    {
+      "alarm_id": "{{alarm_id}}",
+      "alarm_response": "{{alarm_response}}",
+      "alarm_risk_level": "{{alarm_risk_level}}",
+      "alarm_text": "{{alarm_text}}",
+      "alarm_type_details": {
+        "alarm_default_mitigation_plan": "{{alarm_type_details.alarm_default_mitigation_plan}}",
+        "alarm_default_risk_level": "{{alarm_type_details.alarm_default_risk_level}}",
+        "alarm_detection_and_analysis": "{{alarm_type_details.alarm_detection_and_analysis}}",
+        "alarm_generic_title": "{{alarm_type_details.alarm_generic_title}}",
+        "alarm_main_type": "{{alarm_type_details.alarm_main_type}}",
+        "alarm_sub_type": "{{alarm_type_details.alarm_sub_type}}"
+      },
+      "alarm_asset": "{{alarm_asset}}",
+      "alarm_assignees": {{alarm_assignees}},
+      "alarm_related_assets": {{alarm_related_assets}},
+      "alarm_related_entities": {{alarm_related_entities}},
+      "approved_by": "{{approved_by}}",
+      "content": {{content}},
+      "date": "{{date}}",
+      "extra": {{extra}},
+      "history": {{history}},
+      "is_approved": {{is_approved}},
+      "last_notification_date": "{{last_notification_date}}",
+      "notes": {{notes}},
+      "notification_id": "{{notification_id}}",
+      "status": "{{status}}",
+      "tags": {{tags}}
+    }
+  ]
+}
+
 ## Test
 
 ```bash
